@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #e02424; */
+}
+
+.mini-nav{
+    width: 100%;
+    height: 3rem;
+    background-color: #161617;
+    opacity: 80.0%;
+    color: #999999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.mini-nav ul{
+    width: 64rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.mini-nav ul li:last-child{
+    display: none;
+}
+/* mini-nav closed */
+
+.nav-ft{
+    width: 100%;
+    height: 2.75rem;
+    background-color: #1d1d1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding-inline: 20px;
+}
+.nav-ft p a{
+    text-decoration: none;
+    color: #0071e3;
+}
+/* nav-ft closed */
+
+.vdo-sec{
+    width: 100%;
+    /* height: 46.87rem; */
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* position: relative; */
+}
+.vdo-sec a{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vdo-sec a .vd{
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    z-index: -1;
+}
+.vdo-sec a .text-part{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2.93rem;
+}
+.vdo-sec a{
+    color: white;
+    text-decoration: none;
+}
+.vdo-sec a:hover{
+    color: white;
+}
+.vdo-sec a .text-part h2{
+    font-size: 3rem;
+}
+.vdo-sec a .text-part button{
+    width: 8rem;
+    height: 3rem;
+    background-color: #0071e3;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: -0.374px;
+    border: none;
+    border-radius: 980px;
+    box-shadow: none;
+    color: white;
+}
+/* vdo-sec closed */
+
+.sec-1{
+    width: 100%;
+    height: 580px;
+    margin-bottom: 12px;
+}
+.sec-1 a{
+    text-decoration: none;
+    color: #f5f5f7;
+}
+.sec-1 a:hover{
+    color: white;
+}
+.sec-1 a figure{
+    background-image: url(./1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    text-align: center;
+}
+.b a figure{
+    background-image: url(https://www.apple.com/v/home/bm/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-position: center;
+}
+.b a{
+    color: #000000;
+}
+.b a:hover{
+    color: #000000;
+}
+.sec-1 a figure figcaption h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    padding-top: 2.93rem;
+}
+.sec-1 a figure figcaption p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -.009em;
+    line-height: 1.16667;
+    margin-top: 6px;
+}
+.sec-1 a figure figcaption span{
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: center;
+    height: 70px;
+}
+.sec-1 a figure figcaption span button:first-child{
+    width: 8rem;
+    height: 3rem;
+    background-color: #0071e3;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: -0.374px;
+    border: none;
+    border-radius: 980px;
+    box-shadow: none;
+    color: white;
+}
+.sec-1 a figure figcaption span button:hover{
+    background-color: #0077ed;
+}
+
+.sec-1 a figure figcaption span button:last-child{
+    width: 5rem;
+    height: 3rem;
+    background-color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: -0.374px;
+    border: none;
+    border-radius: 980px;
+    box-shadow: none;
+    color: #0077ed;
+    border: 1px solid  #0077ed ;
+}
+.sec-1 a figure figcaption span button:last-child:hover{
+    background-color: #0077ed;
+    color: white;
+}
+/* sec-1 closed */
+
+/* sec-2 start */
+.s-2{
+    display: flex;
+    margin-block-end: 12px;
+    margin-inline: 12px;
+    gap: 12px;
+}
+.sec-2-a{
+    width: 50%;
+    height: 36.25rem;
+    
+}
+.sec-2-a a{
+    text-decoration: none;
+    color: black;
+}
+.sec-2-a a:hover{
+    color: black;
+}
+.sec-2-a a figure{
+    background-image: url(https://www.apple.com/v/home/bm/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_large.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.sec-2-a a figure figcaption h2{
+    padding-top: 2rem;
+    font-size: 2rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+}
+.sec-2-a a  figure  figcaption p{
+    font-size: 1.2rem;
+    letter-spacing: .012em;
+}
+.sec-2-a a figure figcaption span{
+    height: 4.375rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+}
+.sec-2-a a figure  figcaption span button:first-child{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #0071e3;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: -0.374px;
+    border: none;
+    border-radius: 980px;
+    box-shadow: none;
+    color: white;
+}
+.sec-2-a a figure figcaption span button:hover{
+    background-color: #0077ed !important;
+}
+.sec-2-a a figure  figcaption span button:last-child{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: -0.374px;
+    border: none;
+    border-radius: 980px;
+    box-shadow: none;
+    color: #0077ed;
+    border: 1px solid  #0077ed;
+}
+.sec-2-a a figure  figcaption span button:last-child:hover{
+    background-color: #0077ed;
+    color: white;
+}
+/* sec-2 closed */
+
+/* carousel start */
+.crsl{
+    margin-bottom: 65px;
+}
+/* carousel closed */
+
+.big-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f5f7;
+}
+
+/* f-para start */
+.f-para{
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding-block-start: 17px;
+}
+.f-para p{
+    margin-bottom: 9px;
+    color: #000000;
+    opacity: 56%;
+}
+.f-para p:last-child{
+    padding-bottom: 12px;
+}
+.f-para p a{
+    color: #000000;
+    opacity: 1000%;
+}
+/* f-para closed */
+
+.hr{
+    width: 980px;
+}
+
+
+/* f-container start */
+.f-container{
+    width: 980px;
+    height: 383px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.f-container ul{
+    list-style: none;
+    max-width: 196px;
+    height: 373px;
+    font-size: 12px;
+}
+.f-container ul h4{
+    width: 176px;
+    height: 16px;
+    margin-block-end: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.f-container ul .li-2{
+    margin-block-start: 24px;
+}
+.f-container ul li{
+    width: 176px;
+    height: 16px;
+    margin-block-end: 10px;
+}
+.f-container ul li a{
+    text-decoration: none;
+    color: #7B7B7C;
+}
+.f-container ul li a:hover{
+    text-decoration: underline;
+}
+/* f-container closed */
+
+/* f-container-2 start */
+.f-container-2{
+    display: none;
+}
+/* f-container-2 closed */
+
+.f-last{
+    width: 980px;
+    height: auto;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-top: 37px;
+    padding-bottom: 11px;
+}
+.f-last > p{
+    height: 16px;
+    margin-bottom: 19px;
+    color: #000000;
+    opacity: 56%;
+}
+.last-c{
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    color: #000000;
+    opacity: 56%;
+}
+.last-c p{
+    font-size: 12px;
+}
+.last-c ul{
+    width: 382px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    margin-inline-start: -200px;
+}
+.last-c ul  li a{
+    text-decoration: none;
+    color: #000000;
+    opacity: 56%;
+}
+.last-c ul  li a:hover{
+    text-decoration: underline;
+    color: #000000;
+    opacity: 72%;
+}
+/* last-c closed */
+/* f-last closed */
+
+
+
+/* Responsive at 768px */
+
+@media (max-width: 768px) {
+
+   .mini-nav ul{
+    justify-content: space-between;    
+   }   
+    .mini-nav ul li{
+        display: none;
+        padding-inline: 20px;
+    }    
+    .mini-nav ul li:first-child{
+        display: block;
+    }
+    .mini-nav ul li:last-child{
+        display: block;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .nav-ft{
+        height: auto;
+        padding-block: 8px;
+    }
+    .vdo-sec a .text-part{
+        gap: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .vdo-sec a .text-part h2{
+        font-size: 2rem;
+    }
+ 
+    .s-2{
+        flex-wrap: wrap;
+        margin-inline: 0px;
+    }
+    .sec-2-a{
+        width: 100%;
+    }
+
+
+    .big-footer{
+        align-items: start;
+        flex-wrap: wrap;
+        padding-inline: 8px;
+        background-color: transparent;
+    }
+    .f-para{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .hr{
+        width: 100%;
+    }
+
+    .f-container{
+        display: none;
+    }
+    .f-container-2{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .f-container-2 .dropdown{
+        width: 100%;
+    }
+    .f-container-2 .dropdown a{
+        width: 100%;
+        background-color: white;
+        color: #000000;
+    }
+    .f-container-2 .dropdown ul{
+        width: 100%;
+    }
+    .f-container-2 .dropdown ul li a{
+        color: #7B7B7C;
+    }
+
+    .f-last{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .last-c{
+        width: 100%;
+        align-items: start;
+        height: auto;
+        justify-content: space-around;
+        line-height: 5;
+        flex-direction: column;        
+    }
+    .last-c ul{
+        width: 100%;
+        text-align: start;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 733px) {
+    .sec-1 a figure{
+        background-image: url(https://www.apple.com/v/iphone/home/bu/images/overview/consider/innovation__b03hhgj3xx9e_xlarge.jpg);
+        background-position: center;
+        background-size: contain;
+    }
+
+    .b a figure{
+        background-image: url(https://www.apple.com/v/home/bm/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+        background-position: center;
+    }
+}
